@@ -29,7 +29,7 @@
 }
 @media screen and (min-witdh:420px){
   .btn{
-  width: 1em;
+  width: 1em !important;
   border-radius: 1em;
   color: #ffffff;
   line-height: 4em;
