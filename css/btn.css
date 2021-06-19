@@ -13,7 +13,7 @@
   transition: color 0.2s 0.3s, width 0.3s 0s;
 }
 @media screen and (min-witdh:544px){
-  btn{
+  .btn{
   width: 5em;
   border-radius: 1em;
   color: #ffffff;
