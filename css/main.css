@@ -219,6 +219,14 @@ i.icon-blue {
   transform: rotate(-1deg) translateX(0%) scale(1);
 }
 
+.espacio{
+  margin-top: 10%;
+}
+@media only screen and (max-width: 550px) {
+  .espacio{
+    margin-top: 20%;
+  }
+}
 /* #region (Phone) */
 .dev-phone, .dev-phone__body {
   position: relative;
@@ -736,4 +744,27 @@ i.icon-blue {
           transform: rotateX(80deg);
   -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4), 0 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4), 0 4px 4px rgba(0, 0, 0, 0.15);
+}
+/*Referencias*/
+.cneters{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.main{
+  height: 100vh;
+}
+.box{
+  width: 250px;
+  height: 250px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.288);
+  border-radius: 20px;
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+.user-name{
+  margin-bottom: 5px;
+  font-size: 2rem;
 }
