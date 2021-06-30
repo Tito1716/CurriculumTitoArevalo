@@ -7,7 +7,7 @@ $(document).ready(function(){
     $('.parallax').parallax();
     $('.modal').modal();
     $('.collapsible').collapsible();
-
+    $('.fixed-action-btn').floatingActionButton();
  });
 //Tarjetas
 (function() {
@@ -246,15 +246,3 @@ $.fn.commentCards = function(){
 };
 
 $('.cards').commentCards();
-
-$("#hand").click(function() {
-  $("#sticky-button").toggleClass("active");
-});
-
-$(document).on("click", function(event) {
-  if( !$(event.target).closest("#sticky-button").length) {
-     if( $("#sticky-button").hasClass("active")) {
-        $("#sticky-button").removeClass("active");
-     }
-  }
-});

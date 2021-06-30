@@ -154,45 +154,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   justify-content: center;
   align-content: center;
 }
-#slideout {
-  position: fixed;
-  right: 0;
-  top: 80%;
-  z-index: 1;  
-}
-#sticky-button {
-  background: var(--KindOfBlue);
-  height: 82px;
-  margin-right: -101px;
-  transition: margin 0.2s ease-out;
-  position: relative;
-  width: 182px;
-  border-radius: 50px;
 
-}
-#sticky-button.active {
-  margin-right: -3px;
-  transition: margin 0.2s ease-out;
-}
-#hand {
-  background: var(--KindOfBlue);
-  color: white;
-  cursor: pointer;
-  height: 32px;
-  left: 10px;
-  padding: 15px;
-  position: relative;
-  top: 10px;
-  width: 30px;
-  border-radius: 50px;
-}
-a {
-  color: white;
-  display: block;
-  position: absolute;
-  left: 88px;
-  top: 22px;
-}
 /*Cards*/
 .cards {
   position: relative;
